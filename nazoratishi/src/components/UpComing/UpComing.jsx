@@ -14,8 +14,7 @@ function upComing() {
                 <img 
                 width={200}
                 height={300}
-                src={`https://image.tmdb.org/t/p/original${up.poster_path}`} 
-                alt={up.title} 
+                src={`https://image.tmdb.org/t/p/original${up.poster_path}`}
                 className="movie-poster" 
                 />
                 <h1>{up.title}</h1></li>
