@@ -12,8 +12,7 @@ function Popular() {
                 
                
                 <li key={movie.id}> <img width={200} height={300}
-                src={`https://image.tmdb.org/t/p/original${movie.poster_path}`} 
-                alt={movie.title} 
+                src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
                 /> <h1>{movie.title}</h1></li>
             ))
         }
