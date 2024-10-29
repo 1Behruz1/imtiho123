@@ -13,8 +13,7 @@ function Toprated() {
                 <img 
                 width={200}
                 height={300}
-                src={`https://image.tmdb.org/t/p/original${top.poster_path}`} 
-                alt={top.title} 
+                src={`https://image.tmdb.org/t/p/original${top.poster_path}`}
                 />{top.title}</li>
             ))
         }
